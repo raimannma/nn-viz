@@ -75,7 +75,7 @@ export default {
       { input: [1, 1], output: [1] }
     ]
   },
-  toDecimaNum(number, places = 5) {
+  toDecimalNum(number, places = 5) {
     const value = number.toFixed(places).padEnd(places, '0')
     return (number < 0)
       ? "" + value

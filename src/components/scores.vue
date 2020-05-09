@@ -30,7 +30,7 @@ export default Vue.extend({
 			datasets: [{ data: this.scores, fill: true, className: "score_chart" }],
 			labels: {
 				yLabels: 5,
-				yLabelsTextFormatter: val => utils.toDecimaNum(val)
+				yLabelsTextFormatter: val => utils.toDecimalNum(val)
 			}
 		};
 	},
