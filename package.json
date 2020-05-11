@@ -12,7 +12,6 @@
     "@liquid-carrot/carrot": "0.3.18",
     "bootswatch": "^4.3.1",
     "color": "^3.1.2",
-    "core-js": "^3.4.3",
     "hex2dec": "^1.1.2",
     "json-beautify": "^1.1.1",
     "json-format-highlight": "^1.0.1",
@@ -27,7 +26,6 @@
     "vue-trend-chart": "^0.15.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.1.0",
     "@vue/cli-service": "^4.1.0",
     "node-sass": "^4.12.0",
     "sass-loader": "^8.0.0",
